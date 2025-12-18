@@ -1,0 +1,153 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8ede8;
+    background-image: url('../img/foood.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    color: #222;
+}
+
+
+header {
+    background-color: #ffffff;
+    border: 6px solid #acacac;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+header h1 {
+    color: #727272;
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+header a {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    background-color: #a7a7a7;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+header a:hover {
+    background-color: #7e7e7e;
+}
+
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #8d8d8d;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffefef;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav li:hover {
+    background-color: #505050;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #9b9b9b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+nav a:hover {
+    background-color: #616161;
+    transform: scale(1.05);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+article {
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #858585;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+article:hover {
+    transform: scale(1.05);
+}
+
+article h2 {
+    font-size: 1.1rem;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+article a {
+    text-decoration: none;
+    color: #383838;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
+}
+
+footer {
+    border: 5px solid #b3b3b3;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+    color: #333;
+}
